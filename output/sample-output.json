@@ -1,0 +1,41 @@
+{
+  "emails": [
+    "m.m.wayo@alueducation.com",
+    "s.mensah@alumni.alueducation.com",
+    "si.support@si.alueducation.com",
+    "j.obi8@gmail.com",
+    "fake.advisor@alueducation.com.evil.net",
+    "g.uwase@alumni.alueducation.com",
+    "a.adomanu@alustudent.com",
+    "idoks@gmail.com",
+    "a.arif@alustudent.com"
+  ],
+  "alu_emails_verified": [
+    "m.m.wayo@alueducation.com",
+    "s.mensah@alumni.alueducation.com",
+    "si.support@si.alueducation.com",
+    "g.uwase@alumni.alueducation.com",
+    "a.adomanu@alustudent.com",
+    "a.arif@alustudent.com"
+  ],
+  "credit_cards_masked": [
+    "**** **** **** 1111"
+  ],
+  "hashtags": [
+    "#ALUExperience",
+    "#StudentLife",
+    "#ALUGala2026",
+    "#studentportalceisedfromalustudent"
+  ],
+  "phone_numbers": [
+    "+250 788 123 456",
+    "(078) 234-5678",
+    "800-555-0199 ext. 42",
+    "234.555.0192",
+    "+1 (415) 555-0134",
+    "0722334455",
+    "+233201874166",
+    "+1505-526-6542",
+    "0782574961"
+  ]
+}
