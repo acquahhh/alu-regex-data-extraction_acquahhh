@@ -6,6 +6,7 @@ with open("../input/raw-text.txt", "r", encoding="utf-8") as f:
     raw_text = f.read()
 
 # --- Regex patterns go here ---
+# Domain requires a letter/digit/hyphen before each dot, so two dots in a row (like "alueducation..cc") won't match
 email_pattern = re.compile(r"[a-zA-Z0-9._+-]+@(?:[a-zA-Z0-9-]+\.)+[a-zA-Z]+")
 test_emails = email_pattern.findall(raw_text)
 print(test_emails)
@@ -22,7 +23,7 @@ print(test_emails)
 # with open("../output/sample-output.json", "w") as f:
 #     json.dump(results, f, indent=2)
 
-alu_domains = ("alueducation.com", "alumni.alueducation.com", "si.alueducation.com", "alustudent.com")
+alu_domains = ("alueducation.com", "alumni.alueducation.com", "si.alueducation.com")
 
 def is_alu_email(email):
     domain = email.split("@")[-1]
